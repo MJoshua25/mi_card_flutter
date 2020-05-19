@@ -40,52 +40,36 @@ class MyApp extends StatelessWidget {
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25),
-                child: Padding(
-                  padding: const EdgeInsets.all(25.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.phone,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Text(
-                        '+225 43 42 03 19',
-                        style: TextStyle(
-                          color: Colors.teal.shade900,
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 20.0,
-                        ),
-                      ),
-                    ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+225 43 42 03 19',
+                    style: TextStyle(
+                      color: Colors.teal.shade900,
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20.0,
+                    ),
                   ),
                 ),
               ),
               Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25),
-                child: Padding(
-                  padding: const EdgeInsets.all(25.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.email,
-                        color: Colors.teal,
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Text(
-                        'jyao2000@yahoo.fr',
-                        style: TextStyle(
-                          color: Colors.teal.shade900,
-                          fontFamily: 'Source Sans Pro',
-                          fontSize: 20.0,
-                        ),
-                      ),
-                    ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'jyao2000@yahoo.fr',
+                    style: TextStyle(
+                      color: Colors.teal.shade900,
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 20.0,
+                    ),
                   ),
                 ),
               ),
