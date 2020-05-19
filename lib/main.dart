@@ -28,12 +28,13 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Text(
-                'FLUTTER & WEB DEVELOPPER',
+                'FLUTTER & WEB DEVELOPER',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  color: Colors.white,
+                  fontSize: 20.0,
+                  color: Colors.teal.shade100,
                   fontWeight: FontWeight.bold,
-                  fontFamily: 'Pacifico',
+                  fontFamily: 'Source Sans Pro',
+                  letterSpacing: 2.5,
                 ),
               ),
             ],
