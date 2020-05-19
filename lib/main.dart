@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,8 +15,12 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Container(
+            height: 100.0,
+            width: 100.0,
+            margin: EdgeInsets.only(left: 30.0),
+            padding: EdgeInsets.all(20),
             color: Colors.white,
-            child: Text('Hello'),
+            child: Center(child: Text('Hello'),),
           ),
         ),
       ),
